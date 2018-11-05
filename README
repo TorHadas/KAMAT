@@ -1,3 +1,13 @@
+### KAMAT version 1.1
+created by Ofri Wienner
+
+The KAMAT logs in to your Moodle account and adds all excersises to your Todoist or Trello account.
+
+## Download Instructions
+Download the source.zip file and extract it to a folder in your computer.
+
+## Install Instructions
+
 1. Run init.bat file.
 2. Edit settings.py.
     a. Make sure year is correct (for example: 2018/19 choose 18).
