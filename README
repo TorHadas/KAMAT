@@ -1,0 +1,18 @@
+1. Run init.bat file.
+2. Edit settings.py.
+    a. Make sure year is correct (for example: 2018/19 choose 18).
+    b. In todolist, choose todoist or trello.
+    c. If you use trello:
+        Go to 'https://trello.com/app-key'
+        Copy Key to trello_key in settings.py
+        Click 'Token' and then 'Allow'
+        Copy the long key on the shown page to trello_secret,
+        Go to your desired board, and copy it's ID from the address bar to trello_board_id in settings.py
+                (for example: if the address is "https://trello.com/b/PxEQPoMz/reports" the ID is "PxEQPoMz".
+        Write the desired list name in list_name in settings.py
+    d. If you use todoist:
+        Go to settings
+        Click 'Integrations'
+        Copy API Token to todoist_key on settings.py
+    e. Fill your moodle username and password.
+3. Run run.bat.
